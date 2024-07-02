@@ -4,6 +4,6 @@ USER root
 
 RUN ["gem", "install", "fluent-plugin-elasticsearch"]
 
-COPY fluentd.conf /fluentd/etc/fluent.conf
+COPY fluent.conf /fluentd/etc/fluent.conf
 
 USER fluent
